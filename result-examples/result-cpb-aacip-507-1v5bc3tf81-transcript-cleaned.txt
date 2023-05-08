@@ -1,0 +1,47 @@
+gold-standard file: gold-file-examples/cpb-aacip-507-1v5bc3tf81-transcript-cleaned.ann
+model prediction file: test-file-examples/spacy-cpb-aacip-507-1v5bc3tf81-transcript.ann
+
+Strict Evaluation Result
+every token in an entity must have the matching tagging with the gold standard to count as the same entity
+                           precision    recall  f1-score   support
+
+                    event       0.25      0.24      0.24        25
+                 location       0.75      0.77      0.76       193
+             organization       0.51      0.60      0.55       129
+                   person       0.73      0.68      0.70        71
+                  product       0.75      0.50      0.60         6
+program/publication_title       0.00      0.00      0.00        14
+
+                micro avg       0.63      0.65      0.64       438
+                macro avg       0.50      0.47      0.48       438
+             weighted avg       0.62      0.65      0.63       438
+
+Token-based Evaluation Result
+the evaluation is done on the token level, and the difference between B- and I- is disregarded
+                           precision    recall  f1-score   support
+
+                    event       0.62      0.33      0.43        69
+                 location       0.82      0.88      0.85       297
+             organization       0.65      0.93      0.76       224
+                   person       0.91      0.80      0.85       132
+                  product       1.00      0.57      0.73         7
+program/publication_title       0.00      0.00      0.00        37
+
+                micro avg       0.75      0.78      0.77       766
+                macro avg       0.67      0.58      0.60       766
+             weighted avg       0.73      0.78      0.74       766
+
+the labels from both files are mapped to the following labels
+labels not in any column of the following table will be discarded
+
+original_label	mapped_label
+PERSON	person
+ORG	organization
+FAC	location
+GPE	location
+LOC	location
+EVENT	event
+PRODUCT	product
+WORK_OF_ART	program/publication_title
+program_title	program/publication_title
+publication_title	program/publication_title

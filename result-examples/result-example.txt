@@ -1,0 +1,39 @@
+gold-standard file: gold-file-examples/gold-ann-example.ann
+model prediction file: test-file-examples/test-mmif-example.mmif
+
+Strict Evaluation Result
+every token in an entity must have the matching tagging with the gold standard to count as the same entity
+              precision    recall  f1-score   support
+
+organization       1.00      1.00      1.00         2
+      person       1.00      1.00      1.00         1
+
+   micro avg       1.00      1.00      1.00         3
+   macro avg       1.00      1.00      1.00         3
+weighted avg       1.00      1.00      1.00         3
+
+Token-based Evaluation Result
+the evaluation is done on the token level, and the difference between B- and I- is disregarded
+              precision    recall  f1-score   support
+
+organization       1.00      1.00      1.00         2
+      person       1.00      1.00      1.00         2
+
+   micro avg       1.00      1.00      1.00         4
+   macro avg       1.00      1.00      1.00         4
+weighted avg       1.00      1.00      1.00         4
+
+the labels from both files are mapped to the following labels
+labels not in any column of the following table will be discarded
+
+original_label	mapped_label
+PERSON	person
+ORG	organization
+FAC	location
+GPE	location
+LOC	location
+EVENT	event
+PRODUCT	product
+WORK_OF_ART	program/publication_title
+program_title	program/publication_title
+publication_title	program/publication_title
