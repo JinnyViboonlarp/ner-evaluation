@@ -1,3 +1,6 @@
+link containing gold-standard files: https://github.com/clamsproject/clams-aapb-annotations/tree/main/golds/ner/2022-jun-namedentity
+link containing model prediction files: https://github.com/JinnyViboonlarp/ner-evaluation/tree/main/testfiles
+
 folder containing gold-standard files: goldfiles/
 folder containing model prediction files: testfiles/
 number of pairs of matching annotation files to be evaluated: 16
