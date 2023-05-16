@@ -32,6 +32,10 @@ def download(url=None, folder_name=None):
     if not os.path.exists(folder_name):
         os.mkdir(folder_name)
 
+    # Check if the directory is empty
+    if not (len(os.listdir(folder_name)) == 0):
+        raise Exception("The folder '" + folder_name + "' already exists and is not empty")
+
     # Send a GET request to the repository URL and extract the HTML content
     response = requests.get(url)
     soup = BeautifulSoup(response.text, 'html.parser')
