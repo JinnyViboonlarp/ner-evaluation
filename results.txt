@@ -1,0 +1,628 @@
+folder containing gold-standard files: goldfiles/
+folder containing model prediction files: testfiles/
+number of pairs of matching annotation files to be evaluated: 16
+=======================================================================================
+
+Pair 1
+gold-standard file: cpb-aacip-507-154dn40c26-transcript.ann
+model prediction file: cpb-aacip-507-154dn40c26.mmif
+
+Strict Evaluation Result
+every token in an entity must have the matching tagging with the gold standard to count as the same entity
+                           precision    recall  f1-score   support
+
+                    event       0.00      0.00      0.00         1
+                 location       0.71      0.78      0.75        97
+             organization       0.41      0.40      0.40        83
+                   person       0.22      0.13      0.16       255
+                  product       0.00      0.00      0.00         2
+program/publication_title       0.00      0.00      0.00         8
+
+                micro avg       0.41      0.32      0.36       446
+                macro avg       0.22      0.22      0.22       446
+             weighted avg       0.35      0.32      0.33       446
+
+Token-based Evaluation Result
+the evaluation is done on the token level, and the difference between B- and I- is disregarded
+                           precision    recall  f1-score   support
+
+                    event       0.67      1.00      0.80         2
+                 location       0.82      0.85      0.83       149
+             organization       0.70      0.74      0.72       193
+                   person       0.94      0.44      0.60       442
+                  product       0.00      0.00      0.00         2
+program/publication_title       0.20      0.05      0.08        19
+
+                micro avg       0.81      0.58      0.68       807
+                macro avg       0.55      0.51      0.51       807
+             weighted avg       0.84      0.58      0.66       807
+
+=======================================================================================
+
+Pair 2
+gold-standard file: cpb-aacip-507-1v5bc3tf81-transcript.ann
+model prediction file: cpb-aacip-507-1v5bc3tf81.mmif
+
+Strict Evaluation Result
+every token in an entity must have the matching tagging with the gold standard to count as the same entity
+                           precision    recall  f1-score   support
+
+                    event       0.35      0.28      0.31        25
+                 location       0.73      0.80      0.76       193
+             organization       0.52      0.60      0.56       138
+                   person       0.71      0.26      0.38       225
+                  product       0.50      0.17      0.25         6
+program/publication_title       0.00      0.00      0.00        14
+
+                micro avg       0.64      0.50      0.56       601
+                macro avg       0.47      0.35      0.38       601
+             weighted avg       0.64      0.50      0.53       601
+
+Token-based Evaluation Result
+the evaluation is done on the token level, and the difference between B- and I- is disregarded
+                           precision    recall  f1-score   support
+
+                    event       0.71      0.36      0.48        69
+                 location       0.75      0.90      0.82       297
+             organization       0.65      0.91      0.76       245
+                   person       0.87      0.27      0.41       441
+                  product       1.00      0.29      0.44         7
+program/publication_title       0.00      0.00      0.00        37
+
+                micro avg       0.73      0.58      0.65      1096
+                macro avg       0.67      0.45      0.49      1096
+             weighted avg       0.75      0.58      0.59      1096
+
+=======================================================================================
+
+Pair 3
+gold-standard file: cpb-aacip-507-4746q1t25k-transcript.ann
+model prediction file: cpb-aacip-507-4746q1t25k.mmif
+
+Strict Evaluation Result
+every token in an entity must have the matching tagging with the gold standard to count as the same entity
+                           precision    recall  f1-score   support
+
+                    event       0.00      0.00      0.00         1
+                 location       0.66      0.69      0.68       111
+             organization       0.31      0.36      0.33        83
+                   person       0.53      0.37      0.44       307
+                  product       0.00      0.00      0.00         0
+program/publication_title       0.00      0.00      0.00        24
+
+                micro avg       0.51      0.42      0.46       526
+                macro avg       0.25      0.24      0.24       526
+             weighted avg       0.50      0.42      0.45       526
+
+Token-based Evaluation Result
+the evaluation is done on the token level, and the difference between B- and I- is disregarded
+                           precision    recall  f1-score   support
+
+                    event       0.00      0.00      0.00         1
+                 location       0.72      0.81      0.76       148
+             organization       0.60      0.73      0.66       183
+                   person       0.89      0.49      0.63       605
+                  product       0.00      0.00      0.00         0
+program/publication_title       0.00      0.00      0.00        56
+
+                micro avg       0.76      0.55      0.64       993
+                macro avg       0.37      0.34      0.34       993
+             weighted avg       0.76      0.55      0.62       993
+
+=======================================================================================
+
+Pair 4
+gold-standard file: cpb-aacip-507-4t6f18t178-transcript.ann
+model prediction file: cpb-aacip-507-4t6f18t178.mmif
+
+Strict Evaluation Result
+every token in an entity must have the matching tagging with the gold standard to count as the same entity
+                           precision    recall  f1-score   support
+
+                    event       0.00      0.00      0.00         1
+                 location       0.76      0.90      0.83        21
+             organization       0.41      0.57      0.47        23
+                   person       0.64      0.31      0.42       151
+                  product       0.00      0.00      0.00         0
+program/publication_title       0.00      0.00      0.00         3
+
+                micro avg       0.59      0.40      0.48       199
+                macro avg       0.30      0.30      0.29       199
+             weighted avg       0.61      0.40      0.46       199
+
+Token-based Evaluation Result
+the evaluation is done on the token level, and the difference between B- and I- is disregarded
+                           precision    recall  f1-score   support
+
+                    event       0.33      1.00      0.50         2
+                 location       0.80      0.92      0.86        26
+             organization       0.61      0.78      0.69        45
+                   person       0.91      0.45      0.61       205
+                  product       0.00      0.00      0.00         0
+program/publication_title       0.00      0.00      0.00         7
+
+                micro avg       0.79      0.54      0.64       285
+                macro avg       0.44      0.53      0.44       285
+             weighted avg       0.83      0.54      0.63       285
+
+=======================================================================================
+
+Pair 5
+gold-standard file: cpb-aacip-507-6h4cn6zk04-transcript.ann
+model prediction file: cpb-aacip-507-6h4cn6zk04.mmif
+
+Strict Evaluation Result
+every token in an entity must have the matching tagging with the gold standard to count as the same entity
+                           precision    recall  f1-score   support
+
+                    event       0.00      0.00      0.00        11
+                 location       0.66      0.74      0.70       108
+             organization       0.37      0.49      0.42        96
+                   person       0.36      0.26      0.30       372
+                  product       0.00      0.00      0.00         0
+program/publication_title       0.00      0.00      0.00        12
+
+                micro avg       0.43      0.37      0.40       599
+                macro avg       0.23      0.25      0.24       599
+             weighted avg       0.40      0.37      0.38       599
+
+Token-based Evaluation Result
+the evaluation is done on the token level, and the difference between B- and I- is disregarded
+                           precision    recall  f1-score   support
+
+                    event       0.09      0.08      0.08        26
+                 location       0.75      0.91      0.82       153
+             organization       0.56      0.73      0.64       184
+                   person       0.95      0.47      0.63       678
+                  product       0.00      0.00      0.00         0
+program/publication_title       0.00      0.00      0.00        23
+
+                micro avg       0.75      0.56      0.64      1064
+                macro avg       0.39      0.36      0.36      1064
+             weighted avg       0.81      0.56      0.63      1064
+
+=======================================================================================
+
+Pair 6
+gold-standard file: cpb-aacip-507-6w96689725-transcript.ann
+model prediction file: cpb-aacip-507-6w96689725.mmif
+
+Strict Evaluation Result
+every token in an entity must have the matching tagging with the gold standard to count as the same entity
+                           precision    recall  f1-score   support
+
+                    event       0.00      0.00      0.00         1
+                 location       0.64      0.78      0.70         9
+             organization       0.15      0.31      0.20        16
+                   person       0.43      0.20      0.27       145
+                  product       0.00      0.00      0.00         0
+program/publication_title       0.00      0.00      0.00         2
+
+                micro avg       0.36      0.24      0.29       173
+                macro avg       0.20      0.22      0.20       173
+             weighted avg       0.40      0.24      0.28       173
+
+Token-based Evaluation Result
+the evaluation is done on the token level, and the difference between B- and I- is disregarded
+                           precision    recall  f1-score   support
+
+                    event       0.00      0.00      0.00         3
+                 location       0.75      0.75      0.75        12
+             organization       0.46      0.82      0.59        38
+                   person       0.93      0.38      0.54       215
+                  product       0.00      0.00      0.00         0
+program/publication_title       0.00      0.00      0.00         2
+
+                micro avg       0.72      0.45      0.56       270
+                macro avg       0.36      0.32      0.31       270
+             weighted avg       0.84      0.45      0.55       270
+
+=======================================================================================
+
+Pair 7
+gold-standard file: cpb-aacip-507-7659c6sk7z-transcript.ann
+model prediction file: cpb-aacip-507-7659c6sk7z.mmif
+
+Strict Evaluation Result
+every token in an entity must have the matching tagging with the gold standard to count as the same entity
+                           precision    recall  f1-score   support
+
+                    event       0.00      0.00      0.00         7
+                 location       0.90      0.75      0.82        92
+             organization       0.20      0.13      0.16        15
+                   person       0.70      0.21      0.33        33
+                  product       0.00      0.00      0.00         1
+program/publication_title       0.00      0.00      0.00         4
+
+                micro avg       0.77      0.51      0.62       152
+                macro avg       0.30      0.18      0.22       152
+             weighted avg       0.71      0.51      0.58       152
+
+Token-based Evaluation Result
+the evaluation is done on the token level, and the difference between B- and I- is disregarded
+                           precision    recall  f1-score   support
+
+                    event       0.62      0.53      0.57        15
+                 location       0.89      0.83      0.86       112
+             organization       0.38      0.33      0.36        30
+                   person       0.88      0.29      0.44        48
+                  product       0.00      0.00      0.00         1
+program/publication_title       0.00      0.00      0.00         8
+
+                micro avg       0.78      0.58      0.67       214
+                macro avg       0.46      0.33      0.37       214
+             weighted avg       0.76      0.58      0.64       214
+
+=======================================================================================
+
+Pair 8
+gold-standard file: cpb-aacip-507-9882j68s35-transcript.ann
+model prediction file: cpb-aacip-507-9882j68s35.mmif
+
+Strict Evaluation Result
+every token in an entity must have the matching tagging with the gold standard to count as the same entity
+              precision    recall  f1-score   support
+
+       event       1.00      1.00      1.00         4
+    location       0.50      0.60      0.55         5
+organization       0.33      0.44      0.38        16
+      person       0.43      0.13      0.20        94
+     product       0.00      0.00      0.00         5
+
+   micro avg       0.43      0.21      0.28       124
+   macro avg       0.45      0.43      0.42       124
+weighted avg       0.42      0.21      0.25       124
+
+Token-based Evaluation Result
+the evaluation is done on the token level, and the difference between B- and I- is disregarded
+              precision    recall  f1-score   support
+
+       event       1.00      1.00      1.00         4
+    location       0.36      0.67      0.47         6
+organization       0.65      0.79      0.71        33
+      person       0.97      0.28      0.44       121
+     product       0.00      0.00      0.00         7
+
+   micro avg       0.75      0.40      0.52       171
+   macro avg       0.60      0.55      0.52       171
+weighted avg       0.85      0.40      0.49       171
+
+=======================================================================================
+
+Pair 9
+gold-standard file: cpb-aacip-507-cf9j38m509-transcript.ann
+model prediction file: cpb-aacip-507-cf9j38m509.mmif
+
+Strict Evaluation Result
+every token in an entity must have the matching tagging with the gold standard to count as the same entity
+                           precision    recall  f1-score   support
+
+                    event       0.10      0.07      0.08        14
+                 location       0.45      0.69      0.54        67
+             organization       0.55      0.56      0.56       136
+                   person       0.47      0.24      0.32       265
+                  product       0.00      0.00      0.00         1
+program/publication_title       0.00      0.00      0.00        39
+
+                micro avg       0.48      0.36      0.41       522
+                macro avg       0.26      0.26      0.25       522
+             weighted avg       0.44      0.36      0.38       522
+
+Token-based Evaluation Result
+the evaluation is done on the token level, and the difference between B- and I- is disregarded
+                           precision    recall  f1-score   support
+
+                    event       0.69      0.62      0.66        32
+                 location       0.55      0.89      0.68        98
+             organization       0.56      0.69      0.62       201
+                   person       0.90      0.36      0.51       560
+                  product       0.00      0.00      0.00         2
+program/publication_title       0.25      0.01      0.02        82
+
+                micro avg       0.68      0.46      0.55       975
+                macro avg       0.49      0.43      0.42       975
+             weighted avg       0.73      0.46      0.51       975
+
+=======================================================================================
+
+Pair 10
+gold-standard file: cpb-aacip-507-n29p26qt59-transcript.ann
+model prediction file: cpb-aacip-507-n29p26qt59.mmif
+
+Strict Evaluation Result
+every token in an entity must have the matching tagging with the gold standard to count as the same entity
+                           precision    recall  f1-score   support
+
+                    event       0.11      0.07      0.09        14
+                 location       0.58      0.75      0.66        56
+             organization       0.54      0.52      0.53       108
+                   person       0.66      0.40      0.50       344
+                  product       0.00      0.00      0.00         0
+program/publication_title       0.00      0.00      0.00        21
+
+                micro avg       0.60      0.44      0.50       543
+                macro avg       0.32      0.29      0.30       543
+             weighted avg       0.59      0.44      0.49       543
+
+Token-based Evaluation Result
+the evaluation is done on the token level, and the difference between B- and I- is disregarded
+                           precision    recall  f1-score   support
+
+                    event       0.59      0.44      0.50        39
+                 location       0.69      0.97      0.81        75
+             organization       0.64      0.69      0.66       185
+                   person       0.91      0.48      0.62       650
+                  product       0.00      0.00      0.00         0
+program/publication_title       0.00      0.00      0.00        56
+
+                micro avg       0.77      0.52      0.62      1005
+                macro avg       0.47      0.43      0.43      1005
+             weighted avg       0.78      0.52      0.61      1005
+
+=======================================================================================
+
+Pair 11
+gold-standard file: cpb-aacip-507-nk3610wp6s-transcript.ann
+model prediction file: cpb-aacip-507-nk3610wp6s.mmif
+
+Strict Evaluation Result
+every token in an entity must have the matching tagging with the gold standard to count as the same entity
+                           precision    recall  f1-score   support
+
+                    event       0.14      0.10      0.12        10
+                 location       0.55      0.58      0.57       148
+             organization       0.48      0.61      0.53       107
+                   person       0.33      0.18      0.23       247
+                  product       0.00      0.00      0.00         0
+program/publication_title       1.00      0.04      0.08        24
+
+                micro avg       0.45      0.37      0.41       536
+                macro avg       0.42      0.25      0.26       536
+             weighted avg       0.45      0.37      0.38       536
+
+Token-based Evaluation Result
+the evaluation is done on the token level, and the difference between B- and I- is disregarded
+                           precision    recall  f1-score   support
+
+                    event       0.73      0.70      0.71        23
+                 location       0.70      0.90      0.79       210
+             organization       0.53      0.77      0.63       182
+                   person       0.73      0.29      0.41       526
+                  product       0.00      0.00      0.00         0
+program/publication_title       1.00      0.04      0.08        69
+
+                micro avg       0.65      0.49      0.56      1010
+                macro avg       0.62      0.45      0.44      1010
+             weighted avg       0.71      0.49      0.51      1010
+
+=======================================================================================
+
+Pair 12
+gold-standard file: cpb-aacip-507-pc2t43js98-transcript.ann
+model prediction file: cpb-aacip-507-pc2t43js98.mmif
+
+Strict Evaluation Result
+every token in an entity must have the matching tagging with the gold standard to count as the same entity
+                           precision    recall  f1-score   support
+
+                    event       0.00      0.00      0.00        12
+                 location       0.67      0.76      0.71        54
+             organization       0.16      0.33      0.22        33
+                   person       0.64      0.31      0.42       323
+                  product       0.00      0.00      0.00         4
+program/publication_title       0.14      0.04      0.06        27
+
+                micro avg       0.52      0.34      0.41       453
+                macro avg       0.27      0.24      0.24       453
+             weighted avg       0.56      0.34      0.40       453
+
+Token-based Evaluation Result
+the evaluation is done on the token level, and the difference between B- and I- is disregarded
+                           precision    recall  f1-score   support
+
+                    event       0.17      0.09      0.12        32
+                 location       0.69      0.76      0.73        68
+             organization       0.35      0.85      0.50        80
+                   person       0.89      0.33      0.48       659
+                  product       0.00      0.00      0.00         5
+program/publication_title       0.25      0.05      0.09        74
+
+                micro avg       0.63      0.37      0.47       918
+                macro avg       0.39      0.35      0.32       918
+             weighted avg       0.74      0.37      0.45       918
+
+=======================================================================================
+
+Pair 13
+gold-standard file: cpb-aacip-507-r785h7cp0z-transcript.ann
+model prediction file: cpb-aacip-507-r785h7cp0z.mmif
+
+Strict Evaluation Result
+every token in an entity must have the matching tagging with the gold standard to count as the same entity
+                           precision    recall  f1-score   support
+
+                    event       0.00      0.00      0.00         2
+                 location       0.71      0.79      0.75       108
+             organization       0.67      0.63      0.65       109
+                   person       0.26      0.15      0.19       255
+                  product       0.00      0.00      0.00         0
+program/publication_title       0.33      0.09      0.14        11
+
+                micro avg       0.50      0.40      0.44       485
+                macro avg       0.33      0.28      0.29       485
+             weighted avg       0.45      0.40      0.41       485
+
+Token-based Evaluation Result
+the evaluation is done on the token level, and the difference between B- and I- is disregarded
+                           precision    recall  f1-score   support
+
+                    event       0.00      0.00      0.00         4
+                 location       0.81      0.88      0.84       142
+             organization       0.73      0.77      0.75       173
+                   person       0.93      0.40      0.56       437
+                  product       0.00      0.00      0.00         0
+program/publication_title       0.71      0.14      0.23        37
+
+                micro avg       0.75      0.55      0.64       793
+                macro avg       0.53      0.36      0.40       793
+             weighted avg       0.85      0.55      0.63       793
+
+=======================================================================================
+
+Pair 14
+gold-standard file: cpb-aacip-507-vm42r3pt6h-transcript.ann
+model prediction file: cpb-aacip-507-vm42r3pt6h.mmif
+
+Strict Evaluation Result
+every token in an entity must have the matching tagging with the gold standard to count as the same entity
+                           precision    recall  f1-score   support
+
+                    event       0.00      0.00      0.00        14
+                 location       0.53      0.80      0.64        59
+             organization       0.37      0.41      0.39        99
+                   person       0.54      0.27      0.36       250
+                  product       0.00      0.00      0.00         0
+program/publication_title       0.00      0.00      0.00        22
+
+                micro avg       0.47      0.35      0.40       444
+                macro avg       0.24      0.25      0.23       444
+             weighted avg       0.46      0.35      0.38       444
+
+Token-based Evaluation Result
+the evaluation is done on the token level, and the difference between B- and I- is disregarded
+                           precision    recall  f1-score   support
+
+                    event       0.67      0.04      0.08        50
+                 location       0.55      0.88      0.68        81
+             organization       0.52      0.61      0.56       176
+                   person       0.85      0.35      0.50       471
+                  product       0.00      0.00      0.00         0
+program/publication_title       0.11      0.02      0.04        44
+
+                micro avg       0.63      0.42      0.51       822
+                macro avg       0.45      0.32      0.31       822
+             weighted avg       0.70      0.42      0.48       822
+
+=======================================================================================
+
+Pair 15
+gold-standard file: cpb-aacip-507-zk55d8pd1h-transcript.ann
+model prediction file: cpb-aacip-507-zk55d8pd1h.mmif
+
+Strict Evaluation Result
+every token in an entity must have the matching tagging with the gold standard to count as the same entity
+                           precision    recall  f1-score   support
+
+                    event       0.00      0.00      0.00         2
+                 location       0.59      0.76      0.66        67
+             organization       0.33      0.58      0.42        88
+                   person       0.22      0.09      0.13       226
+                  product       0.00      0.00      0.00         0
+program/publication_title       0.00      0.00      0.00        21
+
+                micro avg       0.36      0.30      0.33       404
+                macro avg       0.19      0.24      0.20       404
+             weighted avg       0.29      0.30      0.27       404
+
+Token-based Evaluation Result
+the evaluation is done on the token level, and the difference between B- and I- is disregarded
+                           precision    recall  f1-score   support
+
+                    event       0.00      0.00      0.00         5
+                 location       0.66      0.81      0.73        95
+             organization       0.44      0.85      0.58       142
+                   person       0.92      0.23      0.37       467
+                  product       0.00      0.00      0.00         0
+program/publication_title       0.00      0.00      0.00        52
+
+                micro avg       0.59      0.40      0.48       761
+                macro avg       0.34      0.31      0.28       761
+             weighted avg       0.73      0.40      0.43       761
+
+=======================================================================================
+
+Pair 16
+gold-standard file: cpb-aacip-507-zw18k75z4h-transcript.ann
+model prediction file: cpb-aacip-507-zw18k75z4h.mmif
+
+Strict Evaluation Result
+every token in an entity must have the matching tagging with the gold standard to count as the same entity
+                           precision    recall  f1-score   support
+
+                    event       0.00      0.00      0.00         0
+                 location       0.78      0.78      0.78         9
+             organization       0.38      0.62      0.48        24
+                   person       0.22      0.14      0.17       135
+program/publication_title       0.00      0.00      0.00        10
+
+                micro avg       0.30      0.23      0.26       178
+                macro avg       0.28      0.31      0.29       178
+             weighted avg       0.26      0.23      0.23       178
+
+Token-based Evaluation Result
+the evaluation is done on the token level, and the difference between B- and I- is disregarded
+                           precision    recall  f1-score   support
+
+                    event       0.00      0.00      0.00         0
+                 location       0.94      0.88      0.91        17
+             organization       0.55      1.00      0.71        47
+                   person       0.95      0.42      0.58       213
+program/publication_title       0.00      0.00      0.00        31
+
+                micro avg       0.76      0.49      0.60       308
+                macro avg       0.49      0.46      0.44       308
+             weighted avg       0.79      0.49      0.56       308
+
+=======================================================================================
+
+Aggregated Result from 16 pairs of (gold standard file, model prediction file)
+
+gold-standard file: cpb-aacip-507-zw18k75z4h-transcript.ann
+model prediction file: cpb-aacip-507-zw18k75z4h.mmif
+
+Strict Evaluation Result
+every token in an entity must have the matching tagging with the gold standard to count as the same entity
+                           precision    recall  f1-score   support
+
+                    event       0.18      0.12      0.14       119
+                 location       0.65      0.74      0.69      1204
+             organization       0.43      0.51      0.47      1174
+                   person       0.45      0.24      0.32      3627
+                  product       0.03      0.05      0.04        19
+program/publication_title       0.12      0.01      0.02       242
+
+                micro avg       0.49      0.38      0.43      6385
+                macro avg       0.31      0.28      0.28      6385
+             weighted avg       0.46      0.38      0.40      6385
+
+Token-based Evaluation Result
+the evaluation is done on the token level, and the difference between B- and I- is disregarded
+                           precision    recall  f1-score   support
+
+                    event       0.51      0.33      0.40       307
+                 location       0.72      0.87      0.79      1689
+             organization       0.57      0.76      0.65      2137
+                   person       0.90      0.38      0.53      6738
+                  product       0.02      0.08      0.04        24
+program/publication_title       0.26      0.03      0.05       597
+
+                micro avg       0.71      0.50      0.59     11492
+                macro avg       0.50      0.41      0.41     11492
+             weighted avg       0.76      0.50      0.56     11492
+
+=======================================================================================
+
+the labels from both files are mapped to the following labels
+labels not in any column of the following table will be discarded
+
+original_label	mapped_label
+PERSON	person
+ORG	organization
+FAC	location
+GPE	location
+LOC	location
+EVENT	event
+PRODUCT	product
+WORK_OF_ART	program/publication_title
+program_title	program/publication_title
+publication_title	program/publication_title

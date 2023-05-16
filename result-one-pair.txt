@@ -1,0 +1,49 @@
+gold-standard file: goldfiles/cpb-aacip-507-154dn40c26-transcript.ann
+model prediction file: testfiles/cpb-aacip-507-154dn40c26.mmif
+
+Strict Evaluation Result
+every token in an entity must have the matching tagging with the gold standard to count as the same entity
+                           precision    recall  f1-score   support
+
+                    event       0.00      0.00      0.00         1
+                 location       0.71      0.78      0.75        97
+             organization       0.41      0.40      0.40        83
+                   person       0.22      0.13      0.16       255
+                  product       0.00      0.00      0.00         2
+program/publication_title       0.00      0.00      0.00         8
+
+                micro avg       0.41      0.32      0.36       446
+                macro avg       0.22      0.22      0.22       446
+             weighted avg       0.35      0.32      0.33       446
+
+Token-based Evaluation Result
+the evaluation is done on the token level, and the difference between B- and I- is disregarded
+                           precision    recall  f1-score   support
+
+                    event       0.67      1.00      0.80         2
+                 location       0.82      0.85      0.83       149
+             organization       0.70      0.74      0.72       193
+                   person       0.94      0.44      0.60       442
+                  product       0.00      0.00      0.00         2
+program/publication_title       0.20      0.05      0.08        19
+
+                micro avg       0.81      0.58      0.68       807
+                macro avg       0.55      0.51      0.51       807
+             weighted avg       0.84      0.58      0.66       807
+
+=======================================================================================
+
+the labels from both files are mapped to the following labels
+labels not in any column of the following table will be discarded
+
+original_label	mapped_label
+PERSON	person
+ORG	organization
+FAC	location
+GPE	location
+LOC	location
+EVENT	event
+PRODUCT	product
+WORK_OF_ART	program/publication_title
+program_title	program/publication_title
+publication_title	program/publication_title
